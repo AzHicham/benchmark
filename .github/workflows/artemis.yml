@@ -10,11 +10,8 @@ jobs:
     steps:
       - name: Store benchmark result
         uses: actions/checkout@v2
-      - name: Download previous benchmark data
-        uses: actions/cache@v2
-        with:
-          path: ./cache
-          key: cache-benchmark
+      - name: debug
+        run: ls
       - name: Store benchmark result
         uses: AzHicham/github-action-benchmark@v2
         with:
