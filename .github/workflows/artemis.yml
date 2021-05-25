@@ -24,7 +24,6 @@ jobs:
           gh-pages-branch: 'master'
           benchmark-data-dir-path: '.'
           output-file-path: output.json
-          external-data-json-path: ./cache/benchmark-data.json
           fail-on-alert: true
           alert-threshold: '150%'
           comment-on-alert: true
