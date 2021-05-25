@@ -20,7 +20,7 @@ jobs:
           auto-push: true
           gh-pages-branch: 'master'
           benchmark-data-dir-path: '.'
-          output-file-path: output.json
+          output-file-path: benchmark.json
           fail-on-alert: true
           alert-threshold: '150%'
           comment-on-alert: true
