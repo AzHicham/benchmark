@@ -18,7 +18,7 @@ jobs:
           tool: 'pytest'
           github-token: ${{ secrets.GITHUB_TOKEN }}
           auto-push: true
-          gh-pages-branch: 'master'
+          gh-pages-branch: 'gh-pages'
           benchmark-data-dir-path: '.'
           output-file-path: benchmark.json
           fail-on-alert: true
