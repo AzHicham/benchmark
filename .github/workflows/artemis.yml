@@ -27,5 +27,5 @@ jobs:
           commit-id: ${{ github.event.client_payload.commit_id }}
           commit-message: ${{ github.event.client_payload.commit_message }}
           commit-timestamp: ${{ github.event.client_payload.commit_timestamp }}
-          commit-url: ${{ github.event.client_payload.commit_url }}/commits/${{ github.event.client_payload.commit_id }}
+          commit-url: ${{ github.event.client_payload.commit_url }}/commit/${{ github.event.client_payload.commit_id }}
           commit-name: ${{ github.event.client_payload.commit_username }}
